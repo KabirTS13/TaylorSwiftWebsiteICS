@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/CSS Files/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+</head>
+<body>
+    <header id="topbar">
+        <nav>
+            <span>
+                <img id="icon" src="/Images/logo.png"/>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/homepage.html">Home</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/about.html">About</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/survey.html">Survey</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/quiz.html">Quiz</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/shop.html">Shop</a>
+            </span>
+            <span>
+                <a target="_blank" class="topbar-links" href="https://express.adobe.com/page/qjk3Vn2XeCG6E/">More Info</a>
+            </span>
+        </nav>
+    </header>
+
+    <section id="section-1">
+        
+        <article id="section-1-text">
+            <h1 id="title">Quiz</h1>
+            <h2 id="subtitle">Test your knowledge</h2>
+        </article>
+    </section>
+
+    <section id="section-2">
+        <article class="section-2-stuff" id="section-2-article">
+            <h1 id="section-2-heading">How the Quiz Works</h1>
+            <p id="section-2-text">
+                You will be tested on your knowledge of Taylor Swift, 
+                with questions ranging from her DOB, full name, albums, and pets. 
+                Based on the number of questions you get right, you will be classified 
+                as a “fan,” “hardcore fan,” “Swiftie,” “listens to some songs,” or “doesn't 
+                listen.” On the bottom of the page, there will also be links to other quizzes 
+                available. There is a timer of 10 minutes, so act quickly. Once the time runs out, 
+                you will get an alert with your score. 
+            </p>
+        </article>     
+        <img class="section-2-stuff" id="quiz-image" src="/Images/quiz.png" alt="quiz-image"/>
+    </section> 
+    <section id="section-3">
+        <article>
+            <h3 id="timer-heading">Timer:</h3>
+            <h3 id="timer-text">10 minutes left</h3>
+            <button onclick="timer()" id="start">Start</button> 
+        </article>
+    </section>
+
+    <section id="section-4">
+        <div id="quiz"></div> 
+        <button onclick="showResults()" id="submit">Get your Results</button> 
+        <div id="results"></div>
+    </section>
+
+    <section id="section-5">
+        <span>
+            <a class="quiz-links" href="https://www.sporcle.com/games/chasing_destiny/tswiftallsongs">Song Quiz</a>    
+        </span>
+        <span>
+            <a class="quiz-links" href="https://www.buzzfeed.com/tessafahey/taylor-swift-eras-setlist-age">Guess Your Age quiz</a>    
+        </span>
+        <span>
+            <a class="quiz-links" href="https://www.proprofs.com/quiz-school/topic/taylor-swift">Trivia Quiz</a>    
+        </span>
+    </section>
+
+    <footer id="footer">
+        <span class="footer-text">Copyright @2022</span>
+        <span class="footer-text">Terms of Condition</span>
+        <span class="footer-text">Privacy Terms</span>
+        <span class="footer-text">Cookies</span>
+    </footer>
+    <script type="text/javascript" src="/JS Files/quiz.js"></script> 
+</body>
+</html>

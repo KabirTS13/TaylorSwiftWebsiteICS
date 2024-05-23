@@ -1,0 +1,269 @@
+body{
+    margin:0;
+    background-color:#1b191b;
+}
+#topbar{
+    margin:0;
+    padding: 20px 30px;
+    width:97.07%;
+    background-color: #E6E6FA;
+    text-align: center;
+    padding-right:0px;
+    position: sticky ;
+    top:0;
+}
+.topbar-links, #icon{
+    color:rgb(255, 255, 255);
+    margin:20px;
+    font-size:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #5a0b29;
+}
+.topbar-links:hover{
+    text-shadow: 3px 3px #c7028c;
+    background-color:black;
+    padding:5px;
+    margin:15px;
+}
+.topbar-links:active{
+    color:rgb(201, 253, 223);
+}
+
+#icon{
+    width:50px;
+    margin:0px;
+   position: relative;
+   top:-10px;
+    float:left;
+}
+
+#footer{
+    margin:0;
+    padding:20px;
+    padding-right:0px;
+    width:98%;
+    background-color: black;
+    text-align: center;
+    position:relative;
+    bottom:0px;
+    margin-top:20px;
+}
+.footer-text{
+    color:white;
+    margin:20px;
+    font-size:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+#section-1{
+    margin:0px;
+    background-image: url('https://www.cnet.com/a/img/resize/c800a84e2af720b0c6bfde5644e3462b9cdfdc81/hub/2022/12/24/39e96ed6-0cab-4284-81f5-1c9d6796ced3/gettyimages-1243081916.jpg?auto=webp&fit=crop&height=675&width=1200');
+    width:100%;
+    height:466px;
+    text-align: center;
+    background-size: contain;
+    padding-top:100px;
+}
+
+#section-1-text{
+    padding:50px 50px;
+    border: 5px solid rgb(2, 16, 54);
+    margin:0px 50px;
+    background-color:rgba(0, 0, 0, 0.511);
+}
+#section-1-text:hover{
+    background-color:rgba(12, 32, 97, 0.511);
+}
+
+#title{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:80px;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 10px;
+}
+#subtitle{
+    font-size:50px;
+    color:rgb(130, 206, 206);
+    margin-top:5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+#section-3{
+    margin:20px;
+    background-color: #5a0b29;
+    width:400px;
+    padding:20px;
+    border: 2px solid white;
+}
+
+#start{
+    color:white;
+    background-color:rgb(46, 1, 46);
+    font-size:25px;
+    border: 1px solid white;
+    padding:10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:200px;
+    text-align: center;
+}
+#start:hover{
+    color:rgb(118, 255, 118);
+    cursor: pointer;
+}
+#timer-heading{
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:white;
+    letter-spacing: 10px;
+}
+
+#timer-text{
+    color:rgb(255, 220, 163);
+    font-size:20px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+#section-2-article{
+    width:550px;
+    text-align: center;
+    padding:0px 30px;
+    
+}
+
+
+#quiz-image{
+    width:800px;
+    float: right;
+    height:500px;
+}
+.section-2-stuff{
+    display: inline-block;
+}
+#section-2{
+    background-color:#ffc7ee;
+    height:500px;
+    border:5px solid rgb(212, 130, 176);
+}
+
+#section-2-heading{
+    font-size:40px;
+    color:#b1255b;
+    text-align: center;
+    margin-bottom:45px;
+    margin-top:30px;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+#section-2-text{
+    font-size:20px;
+    color:#b1255b;
+    text-align: center;
+    padding:20px;
+    line-height:30px;
+}
+
+
+.options{
+    width:400px;
+    color:rgb(53, 12, 201);
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.option-label{
+    background-color:rgb(243, 229, 76);
+    padding:10px;
+    margin: 10px 0px;
+    display: inline-block;
+    width:400px;
+    border-radius: 4%;
+    border:3px solid rgb(14, 5, 57);  
+}
+.option-label:hover{
+    box-shadow: 1px 1px 10px 1px white;
+}
+.option-input{
+    margin:20px;
+    
+}
+
+
+.question{
+    color:white;
+    font-size:22px;
+    padding-bottom:10px;
+    padding-top:10px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#section-3{
+    margin-left:60px;
+}
+#section-4{
+    padding:20px;
+}
+
+#submit{
+    margin:40px;
+    margin-top:10px;
+    padding:10px;
+    font-size:30px;
+    background-color: #0f0b5a;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid white;
+}
+#submit:hover{
+    background-color: #0b5a56; 
+    box-shadow: 1px 1px 10px 1px white;
+}
+
+#results{
+    font-size:20px;
+    padding: 20px 0px;
+    color:white;
+    margin-left:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quiz-links{
+    
+    font-size:30px;
+    padding:10px;
+    color:white;
+    margin:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.quiz-links:hover{
+    background-color: #250a46;
+    box-shadow: 2px 2px 10px 2px white;
+}
+
+#section-5{
+    text-align: center;
+    background-color: #8044c9;
+    padding:30px;
+    margin:60px;
+    margin-top:20px;
+}
+
+.question-containers{
+    background-color:#40409b;
+    margin:40px;
+    padding:20px;
+    width:550px;
+}
+
+.question-containers:hover{
+    background-color:rgb(244, 54, 54);
+    box-shadow: 5px 5px 10px 5px rgb(253, 77, 77);;
+}
+

@@ -1,0 +1,217 @@
+body{
+    margin:0;
+    background-color:#070622;
+}
+#topbar{
+    margin:0;
+    padding: 20px 30px;
+    width:97.07%;
+    background-color: #E6E6FA;
+    text-align: center;
+    padding-right:0px;
+    position: sticky ;
+    top:0;
+}
+.topbar-links, #icon{
+    color:rgb(255, 255, 255);
+    margin:20px;
+    font-size:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #5a0b29;
+}
+.topbar-links:hover{
+    text-shadow: 3px 3px #c7028c;
+    background-color:black;
+    padding:5px;
+    margin:15px;
+}
+.topbar-links:active{
+    color:rgb(201, 253, 223);
+}
+
+#icon{
+    width:50px;
+    margin:0px;
+   position: relative;
+   top:-10px;
+    float:left;
+}
+
+#footer{
+    margin:0;
+    padding:20px;
+    padding-right:0px;
+    width:98%;
+    background-color: black;
+    text-align: center;
+    position:relative;
+    bottom:0px;
+}
+.footer-text{
+    color:white;
+    margin:20px;
+    font-size:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+#section-1{
+    margin:0px;
+    background-image: url('https://variety.com/wp-content/uploads/2020/01/taylor-swift-variety-facetime.jpg?w=681&h=383&crop=1');
+    width:100%;
+    height:450px;
+    text-align: center;
+    background-size: contain;
+    padding-top:100px;
+}
+
+#section-1-text{
+    padding:50px 50px;
+    border: 5px solid rgb(2, 16, 54);
+    margin:0px 50px;
+    background-color:rgba(0, 0, 0, 0.511);
+}
+#section-1-text:hover{
+    background-color:rgba(12, 32, 97, 0.511);
+}
+
+#title{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:80px;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 10px;
+}
+#subtitle{
+    font-size:50px;
+    color:rgb(130, 206, 206);
+    margin-top:5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#section-2-article{
+    width:550px;
+    text-align: center;
+    padding:0px 30px;
+    
+}
+
+
+#survey-image{
+    width:800px;
+    float: right;
+    height:400px;
+}
+.section-2-stuff{
+    display: inline-block;
+}
+#section-2{
+    background-color:#c7f8ff;
+    height:400px;
+    border:5px solid rgb(130, 196, 212);
+}
+
+#section-2-heading{
+    font-size:40px;
+    color:#252eb1;
+    text-align: center;
+    margin-bottom:45px;
+    margin-top:30px;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+#section-2-text{
+    font-size:20px;
+    color:#2531b1;
+    text-align: center;
+    padding:20px;
+    line-height:30px;
+}
+
+.form-questions{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:20px;
+    color:white;
+    text-decoration: underline;
+}
+.form-containers{
+    margin:0px 20px;
+    padding:0px 20px;
+
+}
+
+.albums, .era-question{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    color:white;
+    margin-left:20px;
+}
+
+#q4, #q2, #q3, #q5, #q6{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    color:rgb(251, 76, 76);
+    margin-left:20px;
+    padding:10px;
+}
+#form-container{
+    background-color: #446eec;
+    width:900px;
+    margin:20px;
+    border: 5px solid rgb(160, 160, 255);
+}
+
+#submit{
+    margin: 40px 60px;
+    padding:20px;
+    margin-bottom:20px;
+    background-color:#131155;
+    color:white;
+    font-size:20px;
+    border: 5px solid rgb(99, 89, 206);
+    letter-spacing: 5px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px white;
+}
+
+#section-4{
+    background-color: #446eec;
+    width:840px;
+    margin:20px;
+    border: 5px solid rgb(160, 160, 255);
+    color:white;
+    padding:10px 30px;
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:none;
+}
+
+.survey-links{
+    
+    font-size:20px;
+    padding:10px;
+    color:white;
+    margin:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.survey-links:hover{
+    background-color: #250a46;
+    box-shadow: 2px 2px 10px 2px white;
+}
+
+#section-5{
+    text-align: center;
+    background-color: #8044c9;
+    padding:30px;
+    margin:20px;
+    width:850px;
+}

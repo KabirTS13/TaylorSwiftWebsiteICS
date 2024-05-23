@@ -1,0 +1,170 @@
+body{
+    margin:0;
+    background-color:#070622;
+    text-align: center;
+}
+#topbar{
+    margin:0;
+    padding: 20px 30px;
+    width:97.07%;
+    background-color: #E6E6FA;
+    text-align: center;
+    padding-right:0px;
+    position: sticky ;
+    top:0;
+}
+.topbar-links, #icon{
+    color:rgb(255, 255, 255);
+    margin:20px;
+    font-size:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #5a0b29;
+}
+.topbar-links:hover{
+    text-shadow: 3px 3px #c7028c;
+    background-color:black;
+    padding:5px;
+    margin:15px;
+}
+.topbar-links:active{
+    color:rgb(201, 253, 223);
+}
+
+#icon{
+    width:50px;
+    margin:0px;
+   position: relative;
+   top:-10px;
+    float:left;
+}
+
+#footer{
+    margin:0;
+    padding:20px;
+    padding-right:0px;
+    width:98%;
+    background-color: black;
+    text-align: center;
+    position:relative;
+    bottom:0px;
+}
+.footer-text{
+    color:white;
+    margin:20px;
+    font-size:15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+#section-1{
+    margin:0px;
+    background-image: url('https://variety.com/wp-content/uploads/2020/01/taylor-swift-variety-facetime.jpg?w=681&h=383&crop=1');
+    width:100%;
+    height:450px;
+    text-align: center;
+    background-size: contain;
+    padding-top:100px;
+}
+
+#section-1-text{
+    padding:50px 50px;
+    border: 5px solid rgb(2, 16, 54);
+    margin:0px 50px;
+    background-color:rgba(0, 0, 0, 0.511);
+}
+#section-1-text:hover{
+    background-color:rgba(12, 32, 97, 0.511);
+}
+
+#title{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:80px;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 10px;
+}
+#subtitle{
+    font-size:50px;
+    color:rgb(130, 206, 206);
+    margin-top:5px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.item-images{
+    width:300px;
+    height:300px;
+}
+
+.item-containers{
+    display:inline-block;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom:40px;
+    text-align:center;
+    background-color: #0a092b;
+    width:25%;
+    border: 1px solid white;
+    
+}
+
+.item-containers:hover{
+    box-shadow: 2px 2px 10px 4px rgb(255, 255, 255);
+}
+
+
+.item-description{
+    margin-top:0px;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Solitreo', cursive;
+    height:45px;
+    font-size:24px;
+    text-shadow: 1px 4px #8282ac;
+}
+
+.item-input{
+    width:250px;
+    height:20px;
+    padding:10px;
+    background-color: #E6E6FA;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:5px;
+}
+
+.item-input:focus{
+    background-color: #e6faf5;
+    outline: none;
+}
+
+#submit{
+    width:200px;
+    font-size:30px;
+    padding:10px;
+    margin:20px;
+    color:white;
+    background-color: #021723;
+    border:1px solid white;
+}
+#submit:hover{
+    box-shadow: 2px 2px 10px 10px #36365c;
+}
+#section-7{
+    margin:40px;
+    margin-bottom:40px;
+}
+#shop-real{
+    color:white;
+    font-size:25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background-color: #021723;
+    padding:20px;
+    border: 1px solid white;
+}
+
+#shop-real:hover{
+    color:#8282ac;
+}

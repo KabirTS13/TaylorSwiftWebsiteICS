@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="/CSS Files/survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <title>Survey</title>
+</head>
+<body>
+    <header id="topbar">
+        <nav>
+            <span>
+                <img id="icon" src="/Images/logo.png"/>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/homepage.html">Home</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/about.html">About</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/survey.html">Survey</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/quiz.html">Quiz</a>
+            </span>
+            <span>
+                <a class="topbar-links" href="/HTML Files/shop.html">Shop</a>
+            </span>
+            <span>
+                <a target="_blank" class="topbar-links" href="https://express.adobe.com/page/qjk3Vn2XeCG6E/">More Info</a>
+            </span>
+        </nav>
+    </header>
+
+    <section id="section-1">
+        
+        <article id="section-1-text">
+            <h1 id="title">Taylor Swift</h1>
+            <h2 id="subtitle">The Music Industry</h2>
+        </article>
+    </section>
+
+    <section id="section-2">
+        <article class="section-2-stuff" id="section-2-article">
+            <h1 id="section-2-heading">How the Survey Works</h1>
+            <p id="section-2-text">
+                Fill out the survey and get your results below. Answer the questions on 
+                your favourite album and journey to become a Taylor Swift fan. If you want 
+                to fill out more surveys, there are three links below, each taking to amazing 
+                surveys on the internet. No data is collected and your results are only for you to view. 
+            </p>
+        </article>     
+        <img class="section-2-stuff" id="survey-image" src="/Images/survey.jpg" alt="survey-image"/>
+    </section> 
+
+    <section id="section-3">
+        <form id="form-container">
+            <div class="form-containers">
+                <p class="form-questions">What is your favourite Taylor Swift Album?</p>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a1"/>
+                    Debut        
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a2"/>
+                    Fearless TV
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a3"/>
+                    Speak Now
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a4"/>
+                    Red TV
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a5"/>
+                    1989
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a6"/>
+                    Reputation
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a7"/>
+                    Lover
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a8"/>
+                    Folklore
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a9"/>
+                    Evermore
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a10"/>
+                    Midnights
+                </label><br>
+                <label class="albums">
+                    <input class="albums-input" type="radio" name="album" value="a11"/>
+                    Can't decide!
+                </label><br>
+            </div>
+            <div class="form-containers">
+                <p class="form-questions">How long have you been listenting to Taylor Swift for?</p>
+                <input id="q2" name="q2" type="number"/>
+            </div>
+            <div class="form-containers">
+                <p class="form-questions">Are you going to the Era's tour?</p>
+                <label class="era-question"> 
+                    <input class="era-input" name="q3" value="yes" type="radio"/>
+                    Yes!
+                </label><br>
+                <label class="era-question">   
+                <input class="era-input" name="q3" value="no" type="radio"/>
+                No
+                </label>
+            </div>
+            <div class="form-containers">
+                <p class="form-questions">How did you become a Taylor Swift Fan?</p>
+                <textarea id="q4" rows="5" cols="50" placeholder="Describe your experience here"></textarea>
+            </div>
+            <div class="form-containers">
+                <p class="form-questions">What is your favourite Taylor Era?</p>
+                <input id="q5" name="q5" type="text"/>
+            </div>
+            <div class="form-containers">
+                <p class="form-questions">What is your favourite vault track?</p>
+                <input id="q6" name="q6" type="text"/>
+            </div>
+            <button onclick="getResults()" id="submit">Get your results!</button>
+        </form>
+    </section>
+    <section id="section-4">
+        <article>
+            <p id="album-result"></p>
+            <p id="q2-result"></p>
+            <p id="q3-result"></p>
+            <p id="q4-result"></p>
+            <p id="q5-result"></p>
+            <p id="q6-result"></p>
+        </article>
+    </section>
+
+    <section id="section-5">
+        <span>
+            <a class="survey-links" href="https://docs.google.com/forms/d/e/1FAIpQLSev_v7mk_g8jcb2CbrkiRC0i3QlKeGYaTY1lVCWEatMJKanLA/viewform">"Taylor Swift Survey"</a>    
+        </span>
+        <span>
+            <a class="survey-links" href="https://docs.google.com/forms/d/e/1FAIpQLScDqAe4igSae_ttXra43rpxte6hCLWSjk88gQqcmXRCJVsPHQ/viewform">"The Ultimate Swiftie Survey 2.0"</a>    
+        </span>
+        <span>
+            <a class="survey-links" href="https://www.quotev.com/quiz/15428268/A-Swiftie-Survey">"A Swiftie Survey"</a>    
+        </span>
+    </section>
+
+    <footer id="footer">
+        <span class="footer-text">Copyright @2022</span>
+        <span class="footer-text">Terms of Condition</span>
+        <span class="footer-text">Privacy Terms</span>
+        <span class="footer-text">Cookies</span>
+    </footer>
+    <script type="text/javascript" src="/JS Files/survey.js"></script>
+</body>
+</html>
